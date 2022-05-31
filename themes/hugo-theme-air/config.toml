@@ -1,0 +1,30 @@
+BaseUrl= "http://michuan.github.io/"
+LanguageCode= "zh"
+Title= "CodePoetry"
+paginate = 5
+DisqusShortname = ""
+Copyright = "All rights reserved - 2022"
+canonifyurls = true
+
+[author]
+  name = "huhan"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug"
+
+[params]
+  description = "Keep Simple"
+  cover = "images/user.jpg"
+  author = "huhan"
+  authorlocation = "shenzhen"
+  authorwebsite = "http://michuan.github.io/"
+  bio= "Huazhong University of Science and Technology -> WonderShare_DR"
+  logo = "images/user.png"
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = "MiChuan"
+  twitterName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  mainSections = ["post"]
