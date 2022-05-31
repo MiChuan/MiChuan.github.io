@@ -1,4 +1,4 @@
-BaseUrl= "http://michuan.github.io/"
+BaseUrl= "https://michuan.github.io/"
 LanguageCode= "zh"
 Title= "CodePoetry"
 paginate = 5
@@ -17,7 +17,7 @@ canonifyurls = true
   cover = "images/user.jpg"
   author = "huhan"
   authorlocation = "shenzhen"
-  authorwebsite = "http://michuan.github.io/"
+  authorwebsite = "https://michuan.github.io/"
   bio= "Huazhong University of Science and Technology -> WonderShare_DR"
   logo = "images/user.png"
   googleAnalyticsUserID = ""
