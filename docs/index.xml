@@ -5,7 +5,7 @@
     <link>https://michuan.github.io/</link>
     <description>Recent content on CodePoetry</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh</language>
     <lastBuildDate>Wed, 01 Jun 2022 04:20:49 +0800</lastBuildDate><atom:link href="https://michuan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build Blog</title>
@@ -39,7 +39,7 @@ hugo server --theme=hyde --buildDrafts 浏览器里打开： http://localhost:13
       <pubDate>Wed, 01 Jun 2022 02:27:20 +0800</pubDate>
       
       <guid>https://michuan.github.io/about/</guid>
-      <description>关于 作者：胡晗 爱好：编程、写博客、唱歌、阅读、骑行 Github：MiChuan Email：huhan@300624.cn </description>
+      <description>作者：胡晗 爱好：编程、写博客、唱歌、阅读、骑行 Github：MiChuan Email：huhan@300624.cn </description>
     </item>
     
     <item>

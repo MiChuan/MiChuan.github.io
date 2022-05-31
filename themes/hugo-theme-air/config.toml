@@ -14,7 +14,7 @@ canonifyurls = true
 
 [params]
   description = "Keep Simple"
-  cover = "images/user.jpg"
+  cover = "images/user.png"
   author = "huhan"
   authorlocation = "shenzhen"
   authorwebsite = "https://michuan.github.io/"
