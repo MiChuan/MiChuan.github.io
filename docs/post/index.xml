@@ -6,7 +6,24 @@
     <description>Recent content in Posts on CodePoetry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jun 2022 02:28:45 +0800</lastBuildDate><atom:link href="https://michuan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jun 2022 04:20:49 +0800</lastBuildDate><atom:link href="https://michuan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Blog</title>
+      <link>https://michuan.github.io/post/build-blog/</link>
+      <pubDate>Wed, 01 Jun 2022 04:20:49 +0800</pubDate>
+      
+      <guid>https://michuan.github.io/post/build-blog/</guid>
+      <description>Hugo + Github 搭建个人博客
+个人博客 CodePoetry
+QuickStart 安装 Hugo Releases · gohugoio/hugo (github.com)
+配置hugo环境变量 创建一个新的网站 // 命令行中进入工作目录 cd workspace 这样就在 /quickstart 目录里生成了初始站点 hugo new site quickstart 安装皮肤 皮肤列表
+cd themes git clone https://github.com/spf13/hyde.git 添加主题说明 在根目录下的 config.toml 文件中添加主题说明
+echo &amp;#39;theme = &amp;#34;hyde&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.toml 运行Hugo 执行 Hugo 命令进行调试
+hugo server --theme=hyde --buildDrafts 浏览器里打开： http://localhost:1313
+部署 GitHub Pages 在 Github Repository 的 Setting 页面，修改 Source 的选项为 master branch /docs folder
+修改配置文件 config.</description>
+    </item>
+    
     <item>
       <title>First</title>
       <link>https://michuan.github.io/post/first/</link>

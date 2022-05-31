@@ -1,7 +1,7 @@
 ---
 title: "Build Blog"
 date: 2022-06-01T04:20:49+08:00
-draft: true
+draft: false
 ---
 
 >  Hugo + Github 搭建个人博客
@@ -76,6 +76,8 @@ hugo server --theme=hyde --buildDrafts
 ```bash
 hugo new posts/my-first-post.md
 ```
+
+### 设置文章draft: false
 
 ### 启动 Hugo 服务器进行本地渲染
 

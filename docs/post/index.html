@@ -96,6 +96,92 @@
 	   
 <article class="post post">
     <header class="post-header">
+        <h2 class="post-title"><a href="/post/build-blog/">Build Blog</a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <blockquote>
+<p>Hugo + Github 搭建个人博客</p>
+</blockquote>
+<h2 id="个人博客">个人博客</h2>
+<p><a href="https://michuan.github.io/">CodePoetry</a></p>
+<h2 id="quickstart">QuickStart</h2>
+<h3 id="安装-hugo">安装 Hugo</h3>
+<p><a href="https://github.com/gohugoio/hugo/releases">Releases · gohugoio/hugo (github.com)</a></p>
+<h3 id="配置hugo环境变量">配置hugo环境变量</h3>
+<h3 id="创建一个新的网站">创建一个新的网站</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>// 命令行中进入工作目录
+</span></span><span style="display:flex;"><span>cd workspace
+</span></span><span style="display:flex;"><span>这样就在 /quickstart 目录里生成了初始站点
+</span></span><span style="display:flex;"><span>hugo new site quickstart
+</span></span></code></pre></div><h3 id="安装皮肤">安装皮肤</h3>
+<p><a href="https://www.gohugo.org/theme/">皮肤列表</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd themes
+</span></span><span style="display:flex;"><span>git clone https://github.com/spf13/hyde.git
+</span></span></code></pre></div><h3 id="添加主题说明">添加主题说明</h3>
+<p>在根目录下的 config.toml 文件中添加主题说明</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;theme = &#34;hyde&#34;&#39;</span> &gt;&gt; config.toml
+</span></span></code></pre></div><h3 id="运行hugo">运行Hugo</h3>
+<p>执行 <code>Hugo</code> 命令进行调试</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server --theme<span style="color:#f92672">=</span>hyde --buildDrafts
+</span></span></code></pre></div><p>浏览器里打开： <code>http://localhost:1313</code></p>
+<h3 id="部署">部署</h3>
+<h4 id="github-pages">GitHub Pages</h4>
+<ul>
+<li>
+<p><strong>在 Github Repository 的 Setting 页面，修改 Source 的选项为 master branch /docs folder</strong></p>
+</li>
+<li>
+<p><strong>修改配置文件 config.toml</strong>：Github Repository 的 Setting 页面找到我们的 Github Pages 的域名地址，回到 config.toml 文件，找到 baseUrl，填入上述地址</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>baseURL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://yourusername.github.io/&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>打包网站到 /docs 文件夹</strong></p>
+</li>
+<li>
+<p><strong>上传代码至 master</strong></p>
+</li>
+</ul>
+<h2 id="常用命令">常用命令</h2>
+<h3 id="添加一个文章">添加一个文章</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/my-first-post.md
+</span></span></code></pre></div><h3 id="设置文章draft-false">设置文章draft: false</h3>
+<h3 id="启动-hugo-服务器进行本地渲染">启动 Hugo 服务器进行本地渲染</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><h3 id="打包网站到-docs-文件夹">打包网站到 /docs 文件夹</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo -d docs
+</span></span></code></pre></div><h3 id="上传代码至-master">上传代码至 master</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;updates </span><span style="color:#66d9ef">$(</span>date<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>git push origin master
+</span></span></code></pre></div><h2 id="参考资料">参考资料</h2>
+<p><a href="https://zhuanlan.zhihu.com/p/105021100">使用 Hugo + Github 搭建个人博客 - 知乎 (zhihu.com)</a></p>
+<p><a href="https://www.gohugo.org/">Hugo中文文档 (gohugo.org)</a></p>
+<p><a href="https://github.com/syui/hugo-theme-air">syui/hugo-theme-air: cname : syui.cf (github.com)</a></p>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="https://michuan.github.io/images/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            huhan
+        
+        
+        <time class="post-date" datetime="2022-06-01T04:20:49&#43;08:00">
+            1 Jun 2022
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post post">
+    <header class="post-header">
         <h2 class="post-title"><a href="/post/first/">First</a></h2>
     </header>
     <section class="post-excerpt">

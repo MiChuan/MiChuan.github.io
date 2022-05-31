@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://michuan.github.io/</loc>
-    <lastmod>2022-06-01T02:28:45+08:00</lastmod>
+    <loc>https://michuan.github.io/post/build-blog/</loc>
+    <lastmod>2022-06-01T04:20:49+08:00</lastmod>
   </url><url>
-    <loc>https://michuan.github.io/post/first/</loc>
-    <lastmod>2022-06-01T02:28:45+08:00</lastmod>
+    <loc>https://michuan.github.io/</loc>
+    <lastmod>2022-06-01T04:20:49+08:00</lastmod>
   </url><url>
     <loc>https://michuan.github.io/post/</loc>
+    <lastmod>2022-06-01T04:20:49+08:00</lastmod>
+  </url><url>
+    <loc>https://michuan.github.io/post/first/</loc>
     <lastmod>2022-06-01T02:28:45+08:00</lastmod>
   </url><url>
     <loc>https://michuan.github.io/about/</loc>
