@@ -2,30 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CodePoetry</title>
-    <link>http://michuan.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on CodePoetry</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="http://michuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>莫笑醉</title>
+      <link>http://localhost:1313/post/mo/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/mo/</guid>
+      <description>一梦中十八年，见了酒色财气，人我是非，贪嗔痴爱，风霜雨雪。&#xA;莫笑醉 南风共酒 醒时牧笛 醉后渔歌 桃花莫笑蹉跎 诸葛北伐 梦得南柯 夕阳残照浮波 今朝花开 明日花落 红尘几度磋磨 孤舟听雨 僧庐晚钟 东篱把酒 煮酒烧红叶 采露净黄花 司马闲愁 月明送远客 晓风吹酒醒 胡笳断肠 离人心碎 塞鸿归秋 古风-天工AI音乐专辑</description>
+    </item>
+    <item>
+      <title>Build Blog</title>
+      <link>http://localhost:1313/post/build-blog/</link>
+      <pubDate>Wed, 01 Jun 2022 04:20:49 +0800</pubDate>
+      <guid>http://localhost:1313/post/build-blog/</guid>
+      <description>Hugo + Github 搭建个人博客&#xA;个人博客 CodePoetry&#xA;QuickStart 安装 Hugo Releases · gohugoio/hugo (github.com)&#xA;配置hugo环境变量 创建一个新的网站 // 命令行中进入工作目录 cd workspace 这样就在 /quickstart 目录里生成了初始站点 hugo new site quickstart 安装皮肤 皮肤列表&#xA;cd themes git clone https://github.com/spf13/hyde.git 添加主题说明 在根目录下的 config.toml 文件中添加主题说明&#xA;echo &amp;#39;theme = &amp;#34;hyde&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.toml 运行Hugo 执行 Hugo 命令进行调试&#xA;hugo server --theme=hyde --buildDrafts 浏览器里打开： http://localhost:1313&#xA;部署 GitHub Pages 在 Github Repository 的 Setting 页面，修改 Source 的选项为 master branch /docs folder&#xA;修改配置文件 config.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 01 Jun 2022 02:27:20 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>作者：胡晗 爱好：编程、写博客、唱歌、阅读、骑行 Github：MiChuan Email：huhan@300624.cn </description>
+    </item>
     <item>
       <title>sample</title>
-      <link>http://michuan.github.io/post/test/</link>
+      <link>http://localhost:1313/post/test/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://michuan.github.io/post/test/</guid>
-      <description>Hugo is the world&amp;rsquo;s fastest static website engine. It&amp;rsquo;s written in Go (aka Golang) and developed by bep, spf13 and friends.
-Below you will find some of the most common and helpful pages from our documentation.
-https://gohugo.io/documentation/</description>
+      <guid>http://localhost:1313/post/test/</guid>
+      <description>Hugo is the world&amp;rsquo;s fastest static website engine. It&amp;rsquo;s written in Go (aka Golang) and developed by bep, spf13 and friends.&#xA;Below you will find some of the most common and helpful pages from our documentation.&#xA;https://gohugo.io/documentation/</description>
     </item>
-    
     <item>
       <title>test post</title>
-      <link>http://michuan.github.io/post/test/</link>
+      <link>http://localhost:1313/post/test/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://michuan.github.io/post/test/</guid>
+      <guid>http://localhost:1313/post/test/</guid>
       <description>echo &amp;#34;hello world !!&amp;#34; </description>
     </item>
-    
   </channel>
 </rss>
